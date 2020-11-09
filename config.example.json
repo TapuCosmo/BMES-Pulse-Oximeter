@@ -1,6 +1,13 @@
 {
   "matlab": {
-    "arduinoPort": "/dev/ttyUSB0",
-    "arduinoBoard": "Nano3"
+    "arduino": {
+      "port": "/dev/ttyUSB0",
+      "board": "Nano3",
+      "pins": {
+        "photoresistor": "A0",
+        "redLED": "D5",
+        "irLED": "D6"
+      }
+    }
   }
 }
