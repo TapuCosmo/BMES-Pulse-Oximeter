@@ -8,6 +8,8 @@
         "redLED": "D5",
         "irLED": "D6"
       }
-    }
+    },
+    "samplePeriod": 2,
+    "maxSamples": 200
   }
 }
